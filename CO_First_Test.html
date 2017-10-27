@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CO_First_Test</title>
+
+<link href="COFT.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<p id="time">
+		<script>
+		document.getElementById("time"). innerHTML= Date();
+		</script>
+	</p>
+	<div id="head">
+		<p><h1>Citrus Optimists </h1></p>
+  		<img src="Positive-Attitude.jpg" width="425" height="282" alt=""/>
+	  	<p>Created and operated by: Jalena Alexander and Alexia Belden</p>
+		<p><h4>Making a positive setting in the world.</h4></p>
+	</div>
+	<div id="info_us">
+	  <p> Citrus Optimists was created to influnence students in a positive way in Citrus County. It started as an idea for an innovation project for a class in our High School. We were hoping that it will encourge positive behavior in and around our school. </p>
+	</div>
+	<div id="login">
+		<p><h4>☺Don't forget to login.☺</h4></p>
+	<form action="Process.php" method="POST">
+		Username:
+		<input type="text" name="username"/>
+		Password:
+		<input type="password" name="password"/>
+		<input type="submit" name="submit" value="Login"/>
+	</form>
+	</div>
+	<div id="registration">
+		First Name:
+		<input type="text" name="First name"><br>
+		Last Name:
+		<input type="text" name="Last name"><br>
+		Gender:
+		<input type="radio" name="Gender">Male
+		<input type="radio" name="Gender">Female<br>
+		Email:
+		<input type="text" name="email"><br>
+		Username:
+		<input type="text" name="username"><br>
+		Password:
+		<input type="password" name="password"><br>
+		Renter Password:
+		<input type="password" name="password"><br>
+		<form action="Process.php" method="POST">
+		<input type="submit" name="submit" value="registration"/>
+		</form>
+	</div>
+</body>
+</html>

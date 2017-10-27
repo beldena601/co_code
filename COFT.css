@@ -1,0 +1,24 @@
+@charset "utf-8";
+body {
+	background-color: cornsilk;
+	border-style: double;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+#head {
+	text-align: center;
+}
+#info_us {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#login {
+	text-align:center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#registration {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
