@@ -1,0 +1,28 @@
+@charset "utf-8";
+body {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 300px;
+	margin-right: 300px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+#pop-up {
+	text-align: center;
+	height: 300px;
+	width: 500px;
+	position:fixed;
+	bottom: 50%;
+	right: 50%;
+	border:2px solid;
+	padding: 10px;
+	background-color: aliceblue;
+	border-radius: 10px;
+}
+#close {
+	right: 5;
+	top: 5;
+	float: right;
+}
